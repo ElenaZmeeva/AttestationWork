@@ -1,0 +1,32 @@
+--liquibase formatted sql
+
+INSERT INTO doctor VALUES (1, 'Орлов Г.Р.', 'терапевт');
+INSERT INTO doctor VALUES (2, 'Петров П.Н.', 'отолагинголог');
+INSERT INTO doctor VALUES (3, 'Васильева А.А.', 'кардиолог');
+INSERT INTO doctor VALUES (4, 'Лучкина В.С.','специалист УЗИ');
+INSERT INTO doctor VALUES (5, 'Голубев Р.В.','гастроэнтеролог');
+INSERT INTO doctor VALUES (6, 'Дмитриева К.И.','проктолог');
+INSERT INTO doctor VALUES (7, 'Сазонов Н.Н.','офтальмолог');
+INSERT INTO doctor VALUES (8, 'Кириллов П.Д.','стоматолог');
+INSERT INTO doctor VALUES (9, 'Шевцова Д.Л.','дерматолог');
+INSERT INTO doctor VALUES (10, 'Селезнева К.И.','косметолог');
+INSERT INTO patient VALUES (1, 'Иванов П.Л.',71);
+INSERT INTO patient VALUES (2, 'Литвинова К.Г.',64);
+INSERT INTO patient VALUES (3, 'Андреев Н.К.',25);
+INSERT INTO patient VALUES (4, 'Скворцова У.Д.',28);
+INSERT INTO patient VALUES (5, 'Аксенов Л.Д.',54);
+INSERT INTO patient VALUES (6, 'Пичугин В.В.',19);
+INSERT INTO patient VALUES (7, 'Соколова Н.Р.', 33);
+INSERT INTO patient VALUES (8, 'Щеглова А.А.',21);
+INSERT INTO patient VALUES (9, 'Кулигин В.С.',36);
+INSERT INTO patient VALUES (10, 'Салтыков С.Р.',41);
+INSERT INTO medicaltests VALUES (1, 'Общий анализ крови');
+INSERT INTO medicaltests VALUES (2, 'Биохимический анализ крови');
+INSERT INTO medicaltests VALUES (3, 'Флюорография');
+INSERT INTO medicaltests VALUES (4, 'МРТ');
+INSERT INTO medicaltests VALUES (5, 'КТ');
+INSERT INTO medicaltests VALUES (6, 'Холтер');
+INSERT INTO medicaltests VALUES (7, 'ЭКГ');
+INSERT INTO medicaltests VALUES (8, 'Узи сердца');
+INSERT INTO medicaltests VALUES (9, 'Рентген');
+INSERT INTO medicaltests VALUES (10, 'Узи брюшной полости');
